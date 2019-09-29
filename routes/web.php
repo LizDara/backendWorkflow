@@ -14,10 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::resource('admin/posts', 'Admin\\PostsController');
-Route::resource('admin/coche', 'Admin\\cocheController');
-Route::resource('admin/persona', 'Admin\\PersonaController');
-Route::resource('admin/local', 'Admin\\LocalController');
-Route::resource('admin/proceso', 'Admin\\ProcesoController');
-Route::resource('admin/actividad', 'Admin\\ActividadController');
